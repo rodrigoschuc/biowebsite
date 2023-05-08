@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #35424a;
+    padding: 20px;
+}
+
+header h1 {
+    color: #fff;
+}
+
+nav {
+    background-color: #35424a;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #ccc;
+    color: #35424a;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.organ-list li {
+    cursor: pointer;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.organ-list li:hover {
+    text-decoration: underline;
+}
+
+.organ-description {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #35424a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.organ-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
