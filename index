@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        img {
+            width: 300px;
+            height: 200px;
+           -fit: cover;
+        }
+
+        .organ-list {
+            border: 2px solid #000;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .organ-list li {
+            margin-bottom: 5px;
+        }
+    </style>
+    <script src="scripts.js" defer></script>
+    <title>Body Systems</title>
+</head>
+<body>
+    <header>
+        <h1>11 Body Systems</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#integumentary">Integumentary</a></li>
+            <li><a href="#skeletal">Skeletal</a></li>
+            <li><a href="#muscular">Muscular</a></li>
+            <li><a href="#nervous">Nervous</a></li>
+            <li><a href="#endocrine">Endocrine</a></li>
+            <li><a href="#circulatory">Circulatory</a></li>
+            <li><a href="#lymphatic">Lymphatic</a></li>
+            <li><a href="#respiratory">Respiratory</a></li>
+            <li><a href="#digestive">Digestive</a></li>
+            <li><a href="#urinary">Urinary</a></li>
+            <li><a href="#reproductive">Reproductive</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="integumentary">
+            <h2>Integumentary System</h2>
+            <p>Major functions: protection, sensation, temperature regulation, and vitamin D synthesis</p>
+            <img class="organ-image" src="integumentary-image.jpg" alt="Image of Integumentary System">
+            <div class="organ-description organ-box"></div>
+            <h3>Major Organs:</h3>
+            <ul class="organ-list">
+                <li data-description="Skin is the largest organ of the body and serves as a protective barrier.">Skin</li>
+                <li data-description="Hair provides protection and helps in temperature regulation.">Hair</li>
+                <li data-description="Nails protect the sensitive tips of fingers and toes.">Nails</li>
+                <li data-description="Sebaceous glands produce sebum that lubricates the skin and hair.">Sebaceous glands</li>
+                <li data-description="Sweat glands regulate body temperature and help eliminate waste.">Sweat glands</li>
+            </ul>
+            <div class="organ-description"></div>
+        </section>
+
+        <section id="skeletal">
+            <h2>Skeletal System</h2>
+            <p>Major functions: support, protection, movement, storage, and blood cell production</p>
+            <img src="skeletal-image.jpg" alt="Image of Skeletal System">
+            <h3>Major Organs:</h3>
+            <ul class="organ-list">
+                <li data-description="Bones provide support, protection, and serve as a site for blood cell production.">Bones</li>
+                <li data-description="Joints allow for movement and flexibility between bones.">Joints</li>
+                <li data-description="Cartilage cushions joints and helps reduce friction between bones.">Cartilage</li>
+                <li data-description="Ligaments connect bones to other bones, providing stability.">Ligaments</li>
+                <li data-description="Tendons connect muscles to bones, facilitating movement.">Tendons</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    
+            <section id="muscular">
+                <h2>Muscular System</h2>
+                <p>Major functions: movement, posture, and heat production</p>
+                <img src="muscular-image.jpg" alt="Image of Muscular System">
+                <h3>Major Organs:</h3>
+                <ul class="organ-list">
+                    <li data-description="Skeletal muscles are responsible for voluntary movement and maintaining posture.">Skeletal muscles</li>
+                    <li data-description="Smooth muscles control involuntary movement in internal organs.">Smooth muscles</li>
+                    <li data-description="Cardiac muscles pump blood throughout the body in the heart.">Cardiac muscles</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    
+            <section id="nervous">
+                <h2>Nervous System</h2>
+                <p>Major functions: sensory input, integration, and motor output</p>
+                <img src="nervous-image.jpg" alt="Image of Nervous System">
+                <h3>Major Organs:</h3>
+                <ul class="organ-list">
+                    <li data-description="The brain controls and coordinates most body functions.">Brain</li>
+                    <li data-description="The spinal cord connects the brain to the rest of the body, transmitting nerve signals.">Spinal cord</li>
+                    <li data-description="Nerves transmit signals between the brain, spinal cord, and the rest of the body.">Nerves</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    
+            <section id="endocrine">
+                <h2>Endocrine System</h2>
+                <p>Major functions: hormone production and regulation</p>
+                <img src="endocrine-image.jpg" alt="Image of Endocrine System">
+                <h3>Major Organs:</h3>
+                <ul class="organ-list">
+                    <li data-description="The hypothalamus links the nervous and endocrine systems, regulating hormone production.">Hypothalamus</li>
+                    <li data-description="The pituitary gland produces hormones that control other glands and various body functions.">Pituitary gland</li>
+                    <li data-description="The thyroid gland produces hormones that regulate metabolism, growth, and development.">Thyroid gland</li>
+                    <li data-description="The adrenal glands produce hormones that help the body respond to stress.">Adrenal glands</li>
+                    <li data-description="The pancreas produces hormones that regulate blood sugar levels.">Pancreas</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    
+            <section id="circulatory">
+                <h2>Circulatory System</h2>
+                <p>Major functions: transport of oxygen, nutrients, and waste products</p>
+                <img src="circulatory-image.jpg" alt="Image of Circulatory System">
+                <h3>Major Organs:</h3>
+                <ul class="organ-list">
+                    <li data-description="The heart pumps blood throughout the body, supplying oxygen and nutrients to cells.">Heart</li>
+                    <li data-description="Blood vessels transport blood throughout the body.">Blood vessels</li>
+                    <li data-description="Blood carries oxygen, nutrients, and waste products throughout the body.">Blood</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    
+            <section id="lymphatic">
+                <h2>Lymphatic System</h2>
+                <p>Major functions: fluid balance, fat absorption, and immune response</p>
+                <img src="lymphatic-image.jpg" alt="Image of Lymphatic System">
+                <h3>Major Organs:</h3>
+                <ul class="organ-list">
+                    <li data-description="Lymphatic vessels transport lymph, a fluid containing infection-fighting white blood cells.">Lymphatic vessels</li>
+                    <li data-description="Lymph nodes filter lymph and help the body fight infections.">Lymph nodes</li>
+                    <li data-description="The spleen filters blood and helps the immune system recognize and attack foreign substances.">Spleen</li>
+                    <li data-description="The thymus trains and develops T-cells, a type of white blood cell.">Thymus</li>
+                    <li data-description="The tonsils help protect against infections by trapping bacteria and viruses.">Tonsils</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    
+            <section id="respiratory">
+                <h2>Respiratory System</h2>
+                <p>Major functions: gas exchange, regulation of blood pH, and vocalization</p>
+                <img src="respiratory-image.jpg" alt="Image of Respiratory System">
+                <h3>Major Organs:</h3>
+                <ul class="organ-list">
+                    <li data-description="The nasal cavity filters, warms, and humidifies air as it enters the respiratory system.">Nasal cavity</li>
+                    <li data-description="The pharynx connects the nasal cavity to the larynx and esophagus.">Pharynx</li>
+                    <li data-description="The larynx houses the vocal cords and prevents food and drink from entering the trachea.">Larynx</li>
+                    <li data-description="The trachea conducts air to and from the lungs.">Trachea</li>
+                    <li data-description="The bronchi branch into smaller tubes that lead to the lungs.">Bronchi</li>
+                    <li data-description="The lungs facilitate gas exchange between the air and the bloodstream.">Lungs</li>
+                    <li data-description="The diaphragm is a muscle that helps control breathing.">Diaphragm</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    
+            <section id="digestive">
+                <h2>Digestive System</h2>
+                <p>Major functions: digestion, absorption, and elimination of waste</p>
+                <img src="digestive-image.jpg" alt="Image of Digestive System">
+                <h3>Major Organs:</h3>
+                <ul class="organ-list">
+                    <li data-description="The mouth begins the mechanical and chemical breakdown of food.">Mouth</li>
+                    <li data-description="The esophagus transports food from the mouth to the stomach.">Esophagus</li>
+                    <li data-description="The stomach breaks down food using acids and enzymes.">Stomach</li>
+                    <li data-description="The small intestine absorbs nutrients from digested food into the bloodstream.">Small intestine</li>
+                    <li data-description="The large intestine absorbs water and electrolytes, and eliminates waste.">Large intestine</li>
+                    <li data-description="The liver produces bile, detoxifies the blood, and                 stores nutrients.">Liver</li>
+                    <li data-description="The gallbladder stores and concentrates bile produced by the liver.">Gallbladder</li>
+                    <li data-description="The pancreas produces digestive enzymes and hormones that regulate blood sugar levels.">Pancreas</li>
+                    <li data-description="The rectum stores feces before they are eliminated from the body.">Rectum</li>
+                    <li data-description="The anus is the opening through which waste is eliminated from the body.">Anus</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    
+            <section id="urinary">
+                <h2>Urinary System</h2>
+                <p>Major functions: elimination of waste, regulation of blood volume and pressure, and maintenance of electrolyte and pH balance</p>
+                <img src="urinary-image.jpg" alt="Image of Urinary System">
+                <h3>Major Organs:</h3>
+                <ul class="organ-list">
+                    <li data-description="The kidneys filter blood, removing waste and excess substances to form urine.">Kidneys</li>
+                    <li data-description="The ureters transport urine from the kidneys to the bladder.">Ureters</li>
+                    <li data-description="The bladder stores urine until it is eliminated from the body.">Bladder</li>
+                    <li data-description="The urethra is the tube that carries urine from the bladder to the outside of the body.">Urethra</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    
+            <section id="reproductive">
+                <h2>Reproductive System</h2>
+                <p>Major functions: reproduction and development of offspring</p>
+                <img src="reproductive-image.jpg" alt="Image of Reproductive System">
+                <h3>Major Organs:</h3>
+                <ul class="organ-list">
+                    <li data-description="The testes produce sperm and male sex hormones.">Testes (male)</li>
+                    <li data-description="The epididymis stores and transports sperm.">Epididymis (male)</li>
+                    <li data-description="The vas deferens transports sperm from the epididymis to the urethra.">Vas deferens (male)</li>
+                    <li data-description="The prostate gland secretes fluid that nourishes and protects sperm.">Prostate gland (male)</li>
+                    <li data-description="The seminal vesicles produce fluid that helps transport and nourish sperm.">Seminal vesicles (male)</li>
+                    <li data-description="The penis delivers sperm into the female reproductive system.">Penis (male)</li>
+                    <li data-description="The ovaries produce eggs and female sex hormones.">Ovaries (female)</li>
+                    <li data-description="The fallopian tubes transport eggs from the ovaries to the uterus.">Fallopian tubes (female)</li>
+                    <li data-description="The uterus is where a fertilized egg implants and grows during pregnancy.">Uterus (female)</li>
+                    <li data-description="The cervix connects the uterus to the vagina.">Cervix (female)</li>
+                    <li data-description="The vagina is the birth canal and the passageway for sperm to enter the uterus.">Vagina (female)</li>
+                </ul>
+                <div class="organ-description"></div>
+            </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Body Systems. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
